@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add two numbers</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- onInput -->
+    <input type="text" oninput="debouncegetSum()" class="input-field" id="input1" placeholder="Num1"> <br><br> 
+    <input type="text" oninput="debouncegetSum()" class="input-field" id="input2" placeholder="Num2">
+    <h3 id="result"></h3>
+</body>
+</html>
+
+<!--Debouncing : if we type someting backend waits for sometime(like 100ms) to figure it out what the user is searching for sending request-->
